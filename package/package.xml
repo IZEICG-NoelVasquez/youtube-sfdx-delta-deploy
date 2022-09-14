@@ -4,9 +4,6 @@
         <members>BatchLeadConvert</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>staging.yml</members>
-        <name>Workflow</name>
-    </types>
+    
     <version>55.0</version>
 </Package>
