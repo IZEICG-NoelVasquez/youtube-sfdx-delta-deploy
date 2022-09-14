@@ -19,7 +19,7 @@ jobs:
       - name: "Install App and create Delta"
         run: |
         sfdx plugins:install sfdx-git-delta -g
-        git config remote.origin.fetch 'https://github.com/IZEICG-NoelVasquez/pruebaGit.git'
+        git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
         git fetch --all
         git checkout -b pr 
         git --no-pager dif --name-status staging origin/master
